@@ -94,3 +94,8 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 
 ros2 launch tekbot_description teleop_in_gazebo.launch.py
+
+
+
+
+ros2 pkg create tekbot_control --build-type ament_cmake --dependencies rclcpp std_msgs geometry_msgs sensor_msgs nav_msgs robot_localization teleop_twist_joy

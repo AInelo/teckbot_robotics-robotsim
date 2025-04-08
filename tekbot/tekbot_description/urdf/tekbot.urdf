@@ -128,7 +128,7 @@
     <sensor name="lidar" type="ray">
       <always_on>true</always_on>
       <visualize>false</visualize>
-      <update_rate>10</update_rate>
+      <update_rate>10</update_rate>libgazebo_ros_imu_sensor
       <ray>
         <scan>
           <horizontal>
