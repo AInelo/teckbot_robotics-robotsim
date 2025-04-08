@@ -91,3 +91,6 @@ def generate_launch_description():
 
 JOYSTICK 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+
+ros2 launch tekbot_description teleop_in_gazebo.launch.py
